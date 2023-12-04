@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/quizeGame.css" />
+    <title>Quize Game Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <div class="userName">
+          <label for="userNa">User Name: </label>
+          <input
+            type="text"
+            name=""
+            id="userNa"
+            placeholder="Enter Your Username"
+          />
+        </div>
+        <div class="password">
+          <label for="pass">Password: </label>
+          <input
+            type="password"
+            name=""
+            id="pass"
+            placeholder="Enter Your Password"
+          />
+        </div>
+      </div>
+      <button class="startGame">Start Game</button>
+    </div>
+    <script>
+      let startGameBtn = document.querySelector(".startGame");
+      let userName = document.querySelector("#userNa");
+      let password = document.querySelector("#pass");
+      startGameBtn.addEventListener("click", validateAndStartGame);
+      /////////////////validateAndStartGame Function ///////////////////
+      function validateAndStartGame() {
+        if (userName.value.length > 0 && password.value.length > 0) {
+          document.location.href = "./index.html";
+        }
+      }
+    </script>
+  </body>
+</html>

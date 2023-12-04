@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.container {
+  width: 60%;
+  height: 300px;
+  margin: 100px auto;
+  background-color: #F4F4F4;
+  padding: 30px;
+}
+.login {
+  margin-bottom: 20px;
+}
+.login > div {
+  margin-bottom: 20px;
+}
+label {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+input {
+  width: 50%;
+  height: 20px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.startGame {
+  width: 30%;
+  margin: 50px auto;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  text-transform: capitalize;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  outline: none;
+  border: 1px solid rgb(63, 185, 223);
+}
+.startGame:hover {
+  background-color: rgb(63, 185, 223);
+  color: white;
+}
+/* -------------quizGame Styling------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.questionSyntax {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.qAA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.divAnswer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 5px;
+}
+input[name="answer"] {
+  width: fit-content;
+}
+label {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 80%;
+  width: 100px;
+  height: 20px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+}

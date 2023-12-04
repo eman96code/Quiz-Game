@@ -1,0 +1,32 @@
+[   
+{   "question": "What is the capital of France?", 
+    "options": ["London", "Madrid", "Paris", "Rome"],  
+    "correctAnswer": "Paris",   
+    "timeLimit": 20
+},
+{  "question": "Which planet is known as the Red Planet?", 
+    "options": ["Mars", "Venus", "Jupiter", "Mercury"],  
+    "correctAnswer": "Mars",   
+    "timeLimit": 15  
+}, 
+{   "question": "Who wrote the play 'Romeo and Juliet'?", 
+    "options": [  
+    "William Shakespeare",   
+    "Charles Dickens",    
+    "Jane Austen",  
+    "Mark Twain"   
+    ],  
+    "correctAnswer": "William Shakespeare",  
+    "timeLimit": 25  
+},  
+{   "question": "What is the largest mammal in the world?",   
+    "options": ["Elephant", "Giraffe", "Blue Whale", "Kangaroo"], 
+    "correctAnswer": "Blue Whale",  
+    "timeLimit": 30   
+},
+{   "question": "Which gas do plants absorb from the atmosphere?",  
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"], 
+    "correctAnswer": "Carbon Dioxide",
+    "timeLimit": 18   
+}
+] 
